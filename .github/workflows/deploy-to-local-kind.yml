@@ -3,7 +3,7 @@ on:
   push:
     branches: [ "main" ]
   workflow_dispatch: 
-
+#trigger workflow run
 jobs:
   deploy-windows:
     runs-on: [self-hosted, windows]
